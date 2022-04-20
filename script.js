@@ -59,6 +59,6 @@ function passwordGenerator(num) {
 }
 
 passwordBtnEl.on('click':function(generate) () {
-  var newPassword = passwordGenerator(15),
+  var newPassword = passwordGenerator(15);
   passwordDisplayEl.text(newPassword);
 });
